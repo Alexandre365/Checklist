@@ -1,0 +1,26 @@
+
+.title{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header_Form{
+    display: flex;
+    flex-direction: column;
+}
+.Header_Form label{
+    padding: 5px 0px;
+}
+.Header_Form input{
+    background-color: #282934;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.Header_Form button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0px;
+}

@@ -1,0 +1,67 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+.Header_Form_Input{
+    display: flex;
+    flex-direction: column;
+}
+
+.Card_dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20212C;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.Card_dados label{
+    width: 90%;
+}
+.Card_dados button{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #04bf8a;
+    transition: background-color 0.5s;
+    color: white;
+}
+.Card_dados button:hover{
+    background-color: rgb(219, 66, 5);
+}
+
+input[type='checkbox']{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #20212C;
+    border: 1.5px solid #666668;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+input[type='checkbox']:hover{
+    transition: background-color 0.5s;
+    background-color: #04bf8a65;
+}
+input[type='checkbox']:after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f00c';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #04BF8A;
+    display: none;
+    border-radius: 3px;
+}
+input[type='checkbox']:checked:after{
+    display: flex;
+
+}
